@@ -30,5 +30,6 @@ router.get("/", function(req, res){
                 games: gams
             });
         });
+});
 
-})
+    module.exports = router;
